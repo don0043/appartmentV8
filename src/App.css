@@ -1,0 +1,100 @@
+body{
+  background-image: url("img/kirpich.jpg");
+  background-color: white;
+}
+
+.photo{
+  margin-left: 42%;
+  border: none;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgba(30,27,28, .7);
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  margin-top: 70px;
+  border-radius: 10%;
+}
+
+
+
+
+
+
+.photo:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  box-shadow: 0 10px 30px #000;
+  cursor: pointer;
+  border: 1px solid white;
+
+}
+.photo img{
+  height: 400px;
+  width: 400px;
+  border-radius: 4px;
+  margin-bottom: 0px;
+}
+
+.photo p{
+  color: white;
+  font-size: 17px;
+}
+.title{
+  color: white;
+}
+
+.deskButton{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 0px 15px 0px  15px;
+
+}
+.deskButton:hover{
+  color: orange;
+  border: 1px solid orange;
+  transition: 0s ease-in-out 0.1s;
+}
+
+.searchInput{
+  margin-top: 0px;
+
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.searchInp{
+  margin-left: 33px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 7px;
+}
+.searchInput h3{
+  color: black;
+}
+.sidebar{
+  position: fixed;
+  height: 100%;
+  width: 400px;
+  background-color: rgba(30,27,28, .7);
+  border-radius: 5px;
+  margin-left: 0px;
+  padding-top: 15px;
+}
+
+.authBtn{
+
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  border-radius: 15%;
+}

@@ -1,0 +1,108 @@
+.card-body img{
+    width: 550px;
+    height: 600px;
+    margin-left: 130px;
+    border-radius: 10%;
+}
+
+.card-body{
+    background-color: rgba(30,27,28, .7);
+    width: 800px;
+    height: 1750px;
+    padding: 30px;
+    border-radius: 10%;
+
+
+}
+
+.card-body a{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-body input{
+
+    margin-left: 0px;
+
+}
+
+.card-body p, h1, h2{
+    color: white;
+}
+
+
+.host-input{
+
+    margin-top: 180px;
+    width: 300px !important;
+}
+
+.buto{
+
+    width: 300px;
+    background: rgba(122, 111, 222, 1);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: 0.5s ease-out;
+    color: white;
+
+}
+
+.buto:hover{
+
+    font-weight: bold;
+    transition: 0.5s ease-out;
+    color: wheat;
+    border: 1px solid rgba(122, 111, 222, 1);
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+.card-body p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-desk{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rowdies', cursive;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.Slider__track{
+    display: flex;
+    overflow: hidden;
+}
+.Slider_item{
+    width: 700px;
+    height: 500px;
+    transition: .1s;
+}
+.Slider{
+    position: relative;
+}
+
+.Slider button{
+
+    border-radius: 50%;
+
+}

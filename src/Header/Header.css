@@ -1,0 +1,54 @@
+
+header{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rowdies', cursive;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E1B1C;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+li:hover{
+    color: orange;
+}
+
+nav{
+    display: flex;
+    margin-left: auto;
+}
+input{
+    margin-left: 700px;
+    margin-right: 30px;
+    margin-top: 7px;
+    height: 30px;
+}
+.logo{
+    margin-left: 70px;
+    height: 60px;
+    width: 220px;
+}
+.navA{
+    color:#4169e1;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navA:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.authBtn{
+    margin-right: 30px;
+    margin-top: 10px;
+}

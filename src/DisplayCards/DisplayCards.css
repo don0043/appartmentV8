@@ -1,0 +1,6 @@
+.displayCards{
+    display: flex;
+
+    justify-content: center;
+}
+
