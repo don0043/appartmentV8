@@ -16,6 +16,7 @@ function Home() {
     const [totalCount, setTotalCount] = useState(0)
     const photos2 = [];
 
+
     useEffect(() => {
         if (fetching) {
             console.log('fetching')

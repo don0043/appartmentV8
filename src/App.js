@@ -4,6 +4,8 @@ import CardDesk from "./CardDesk/CardDesk";
 import Home from "./Home/Home";
 import Auth from "./Auth/Auth";
 import React from "react";
+import Signup from "./Auth/Signup";
+import Login from "./Auth/Login";
 
 function App() {
 
@@ -20,7 +22,8 @@ function App() {
             <Routes>
 
                 <Route path="/" element={<Home/>}/>
-                <Route path="/auth" element={<Auth/>}/>
+                <Route path="/login" element={<Login/>}/>
+                <Route path="/register" element={<Signup/>}/>
                 <Route path="/:title" element={<CardDesk/>}/>
                 <Route path="/payment" element={<CardDesk/>}/>
 
