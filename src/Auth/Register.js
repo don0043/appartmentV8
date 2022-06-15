@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Auth.css';
 import Header from "../Header/Header";
+import {Link} from "react-router-dom";
 
 
 const Register = ({title, handleClick}) => {
@@ -28,6 +29,7 @@ const Register = ({title, handleClick}) => {
                     </button>
 
                 </div>
+                <Link to="/login">if u have an account</Link>
             </div>
         </div>
     );

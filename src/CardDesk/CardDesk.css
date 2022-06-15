@@ -2,7 +2,7 @@
     width: 550px;
     height: 600px;
     margin-left: 130px;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 
 .card-body{
@@ -10,7 +10,6 @@
     width: 800px;
     height: 1750px;
     padding: 30px;
-    border-radius: 10%;
 
 
 }

@@ -9,7 +9,7 @@ const Header = () => {
     return (
             <header>
                 <Link to="/"><img src={immg} alt="logo" className="logo"/></Link>
-                <Link to="/login" className="authBtn">войти</Link>
+                <Link to="/login" className="authBtn">добавить свое объявление</Link>
             </header>
     );
 };

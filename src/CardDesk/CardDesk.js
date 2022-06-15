@@ -132,6 +132,7 @@ const Contacting = () => {
             <p>город : {post.city}</p>
             <p>{post.paragraph}</p>
             <p>телефон : {post.phone}</p>
+            <p>почта хозяина: {post.email}</p>
 
             <div className="host-input">
             <h2>Связаться с хозяином</h2>
