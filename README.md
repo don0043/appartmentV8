@@ -24,7 +24,7 @@ run `npm start`
 ## links:
 
 # FRONT
-<br> vercel frontend: https://sleepy-dusk-06573.herokuapp.com
+<br> vercel frontend: [https://sleepy-dusk-06573.herokuapp.com](https://appartment-v8-finished-85ayzhz4w-daniiararkabaev-gmailcom.vercel.app/)
 this will run client on localhost:3000
 
 # BACK
